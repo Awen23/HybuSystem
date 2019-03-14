@@ -1,0 +1,100 @@
+/* For navigation bar */
+.navbar {
+  min-height: 80px;
+  margin-bottom:0px;
+  background-color:white;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.nav-text {
+  font-size:17px;
+}
+
+/* Sets the background red colour on each page  */
+#backred {
+  background-color:#E30713;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+/* Sets the inner white colour on each page  */
+#innerwhite {
+  background-color:white;
+  border-radius:5px;
+}
+
+.row {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/* Styles the h5 used on many pages */
+h5 {
+  font-weight: bold;
+}
+
+/* Styles horizontal forms when used */
+.form-horizontal {
+  padding-bottom:30px;
+}
+
+/* Table styling */ 
+th, td {
+  border-bottom:1px solid #ddd;
+}
+
+/* Styles calendar  */
+#calContainer {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top:80px;
+}
+
+/* Styles the mini navigation bars on many pages (e.g. Statistics)  */
+.mini-nav {
+  border-radius:10px;
+  border-width:0.5px;
+  border-color:darkgrey;
+  color:black;
+  background-color:lightgrey;
+}
+
+.mini-nav:hover {
+  background-color:#fa525a;
+  border-color:black;
+}
+
+/* Styles the statistics box on many of the statistics pages */
+.statistics {
+  border:3px solid lightgrey;
+  border-radius:5px;
+  padding-left:20px;
+  background-color:#f2f2f2;
+}
+
+/* Styles the logout button on each page  */
+.logout {
+  padding-left:140px; 
+  padding-top:10px
+}
+
+/* Sets the bottom red to white gradient on each page  */
+#endGradient {
+  background: linear-gradient(#E30713, white);
+  height:50px;
+}
